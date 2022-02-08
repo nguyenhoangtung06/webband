@@ -1,0 +1,42 @@
+/* MOBILE RESPONSIVE */
+@media (max-width:740px){
+    #header{
+        overflow: hidden;
+    }
+    #header #nav {
+        display: block;
+        position: relative;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li:hover a {
+        background-color: #000;
+        color: white;
+    }    
+    #header .mobile-menu-btn{
+        float: right;
+        display: block;
+        position:absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #header .mobile-menu-btn:hover{
+        background-color: #ccc;
+    } 
+    #header .mobile-menu-btn:hover .ti-menu{
+        color: #000;
+    }   
+    #header .ti-menu{
+        color: #fff;
+        line-height: 46px;
+        margin: 24px;
+    }
+    #header .search-btn .search-icon{
+        display: none;
+    }
+    
+}
